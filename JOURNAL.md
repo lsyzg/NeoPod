@@ -32,7 +32,7 @@ CONCEPT:
 
 I added the ESP32-WROOM-32, PCM5102a, SJ-3523-SMT-TR, and the SD slot. Now I am trying to find a symbol for the Kailh Choc V1.
 
-![NeoPod_5/24/25](https://raw.githubusercontent.com/lsyzg/NeoPod/refs/heads/main/Images/NeoPod_5-24-25.pdf)
+![NeoPod_5/24/25](https://github.com/lsyzg/NeoPod/blob/main/Images/NeoPod_5-24-25.pdf)
 
 DATASHEETS AND REPOSITORIES I AM USING NOW
 - [GY-PCM5102a](https://todbot.com/blog/wp-content/uploads/2023/05/macsbug_pcm5102_info.jpg)
