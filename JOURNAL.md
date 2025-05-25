@@ -27,3 +27,5 @@ CONCEPT:
 - I will use a 1.8" to 2.0" TFT LCD (ST7789) that I can use SPI with
 - After some research, a 3000 mAh 3.7v li-on battery should be sufficient to run the NeoPod for a while
 - Add a momentary switch on the side to act as a [power button](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/), it will be connected to gpio0 of the ESP-WROOM so that it goes into and out of deep-sleep on press, use EXT0 on GPIO0
+
+TIME SPENT: 4hrs
