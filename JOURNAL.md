@@ -32,6 +32,8 @@ CONCEPT:
 
 I added the ESP32-WROOM-32, PCM5102a, SJ-3523-SMT-TR, and the SD slot. Now I am trying to find a symbol for the Kailh Choc V1.
 
+![NeoPod_5/24/25](https://github.com/lsyzg/NeoPod/blob/main/Images/NeoPod_5-24-25.pdf)
+
 DATASHEETS AND REPOSITORIES I AM USING NOW
 - [GY-PCM5102a](https://todbot.com/blog/wp-content/uploads/2023/05/macsbug_pcm5102_info.jpg)
 - [PCM5102a](https://www.ti.com/lit/ds/symlink/pcm5102a.pdf?ts=1748075100790&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FPCM5102A%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-44700045336317125_prodfolderdynamic-cpc-pf-google-ww_en_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC+SEARCH+ADS%2526DCM%253Dyes%2526gad_source%253D1%2526gad_campaignid%253D6465330681%2526gbraid%253D0AAAAAC068F3y38dTNUFxfDZH98xuF_1oU%2526gclid%253DCjwKCAjw3MXBBhAzEiwA0vLXQfC7bXXGllGd-9q7n_Mi0rRSxtiPGLOc2QiR0GRdfrctm7GgXN592xoCbpAQAvD_BwE%2526gclsrc%253Daw.ds)
