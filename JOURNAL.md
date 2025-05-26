@@ -47,3 +47,14 @@ TIME SPENT: 6hrs
 ### KICAD SKETCH
 
 I've researched how switches are connected in keyboards and have connected them to one GPIO each. I have also added two USB-C receptacles for charging, serial debugging, and data transfer. The RP2040 is added. For the screen, I will use a 2.2" TFT ILI9341. Added the STC4054GR and a linear regulator XC6210B332MR, wired the switches together, wired everything together. I am now down with the schematic, assuming none of the wiring is wrong. YAY
+
+![NeoPod_5/25/25](https://github.com/lsyzg/NeoPod/blob/main/Images/NeoPod_5-25-25.pdf)
+
+DATASHEETS AND REPOSITORIES I AM USING NOW
+- [RP2040 Pinout](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html)
+- [Another RP2040 Pinout](https://www.circuitstate.com/pinouts/raspberry-pi-pico-rp2040-microcontroller-board-pinout-diagrams/)
+- [Audiojack](https://www.sameskydevices.com/product/resource/sj-352x-smt.pdf)
+- [scottokeebs kicad keyboard libraries](https://github.com/joe-scotto/scottokeebs/blob/main/Extras/ScottoKicad/footprints/ScottoKeebs_Choc.pretty/Choc_V1.kicad_mod)
+- [SN74CB3Q3257DBQR Datasheet](https://www.ti.com/lit/ds/symlink/sn74cb3q3257.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1748192144325&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74cb3q3257)
+
+TIME SPENT: 6hrs
