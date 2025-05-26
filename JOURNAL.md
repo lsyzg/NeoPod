@@ -46,4 +46,4 @@ TIME SPENT: 6hrs
 
 ### KICAD SKETCH
 
-I've researched how switches are connected in keyboards and have connected them to one GPIO each. I have also added two USB-C receptacles for charging, serial debugging, and data transfer. The RP2040 is added. For the screen, I will use a 2.2" TFT ILI9341. Added the STC4054GR and made hierarchical sheets for the main portions on the board, the WROOM, the dac, and the RP2040 storage. SN74CB3Q3257DBQR is added as well.
+I've researched how switches are connected in keyboards and have connected them to one GPIO each. I have also added two USB-C receptacles for charging, serial debugging, and data transfer. The RP2040 is added. For the screen, I will use a 2.2" TFT ILI9341. Added the STC4054GR and a linear regulator XC6210B332MR, wired the switches together, wired everything together. I am now down with the schematic, assuming none of the wiring is wrong. YAY
