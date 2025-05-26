@@ -17937,19 +17937,21 @@
 		(fields_autoplaced yes)
 		(uuid "ed3c63de-0186-4ad2-8692-43c72e8a5af4")
 		(property "Reference" "U10"
-			(at 139.7 69.85 0)
+			(at 145.6533 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SN74CB3Q3257DBQR"
-			(at 139.7 72.39 0)
+			(at 145.6533 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "SN74CB3Q3257DBQR:SN74CB3Q3257DBQR"
