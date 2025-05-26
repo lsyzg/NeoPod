@@ -24,13 +24,15 @@ CONCEPT:
 - The USB-C connector will be a 16 + 8 receptacle (USB4115-GF-A) that can transfer data and charge, which I will use a STC4054GR for.
 - If I want a method to debug over USB-C from my computer, I can use a CP2102 that is between the D+ and D- lines to convert USB to UART and send data over serial and charge the device. 
 - For file transfer to the microSD, I will use a separate USB-C receptacle, a RP2040 with a 12MHz XTAL with 2 22pF capacitors, and a 4x multiplexer(SN74CB3Q3257DBQR) that switches access of the microSD between the rp2040 and the ESP32-WROOM when the cable is plugged in via sel pins
-- I will use a 1.8" to 2.0" TFT LCD (ST7789) that I can use SPI with
+- I will use a 2" to 2.0" TFT LCD (ILI9341) that I can use SPI with
 - After some research, a 3000 mAh 3.7v li-on battery should be sufficient to run the NeoPod for a while
 - Add a momentary switch on the side to act as a [power button](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/), it will be connected to gpio0 of the ESP-WROOM so that it goes into and out of deep-sleep on press, use EXT0 on GPIO0
 
-### KICAD-SKETCH
+### KICAD SKETCH
 
-I added the ESP32-WROOM-32, PCM5102a, SJ-3523-SMT-TR, and the SD slot. Now I am trying to find a symbol for the Kailh Choc V1.
+I sadded the ESP32-WROOM-32, PCM5102a, SJ-3523-SMT-TR, and the SD slot. Now I am trying to find a symbol for the Kailh Choc V1.
+
+![NeoPod_5/24/25](https://github.com/lsyzg/NeoPod/blob/main/Images/NeoPod_5-24-25.pdf)
 
 DATASHEETS AND REPOSITORIES I AM USING NOW
 - [GY-PCM5102a](https://todbot.com/blog/wp-content/uploads/2023/05/macsbug_pcm5102_info.jpg)
@@ -39,3 +41,9 @@ DATASHEETS AND REPOSITORIES I AM USING NOW
 - [kiswitch - KiCad Keyswitch Footprints](https://github.com/kiswitch/kiswitch/tree/main)
   
 TIME SPENT: 6hrs
+
+# MAY 25, 2025
+
+### KICAD SKETCH
+
+I've researched how switches are connected in keyboards and have connected them to one GPIO each. I have also added two USB-C receptacles for charging, serial debugging, and data transfer. The RP2040 is added. For the screen, I will use a 2.2" TFT ILI9341. Added the STC4054GR and a linear regulator XC6210B332MR, wired the switches together, wired everything together. I am now down with the schematic, assuming none of the wiring is wrong. YAY
