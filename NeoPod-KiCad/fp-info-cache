@@ -1,4 +1,4 @@
-24758288494466613
+24761784952708625
 Adafruit_MicroSD_Socket
 MicroSD_Socket
 
@@ -91237,6 +91237,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SN74CB3Q3257DBQR
+SN74CB3Q3257DBQR
+
+
+0
+16
+16
 STC4054GR
 SOT95P280X110-5N
 
@@ -92924,6 +92931,13 @@ Logo WEEE
 0
 0
 0
+TFT-320x240
+TFT-320x240
+
+
+0
+14
+14
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
