@@ -58,3 +58,19 @@ DATASHEETS AND REPOSITORIES I AM USING NOW
 - [SN74CB3Q3257DBQR Datasheet](https://www.ti.com/lit/ds/symlink/sn74cb3q3257.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1748192144325&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74cb3q3257)
 
 TIME SPENT: 6hrs
+
+# MAY 26, 2025
+
+### KICAD SKETCH
+
+I finalized the connections based off of the ERC in kicad. I then put x indicators on all the pins that I would not be connecting to in order to avoid confusion. I realized that some of the digital ground pins were labelled with analog ground. So, I replaced all of the wrong ones. 
+
+![NeoPod_5/26/25](https://github.com/lsyzg/NeoPod/blob/main/Images/NeoPod_5-26-25.pdf)
+
+### KICAD PCB LAYOUT
+
+Today I figured out the dimensions of the pcb. I am aiming for 100mm by 120mm so that the pcb can comfortably accomadate all the IC's I plan on putting on. I started the layout process by grouping the IC's together with all their components. Then, I placed the IC's that would stick out of the board such as the screen, USB-Cs, audio jack, and keyswitches so that I would know what space I had to work with in terms of trace and IC placement. I also started wiring and finished both USB-C plugs, some resistors and capacitors on the ESP32-WROOM32, and the DAC and audio jack. I did not finish the battery circuit, the SPI to UART converter, the RP2040 and microSD card reader, or the multiplexer.
+
+![NeoPod_pcb](https://github.com/lsyzg/NeoPod/blob/main/Images/NeoPod-pcbnew_5-26-25.png)
+
+TIME SPENT: 2hrs
