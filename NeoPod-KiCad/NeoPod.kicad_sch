@@ -8558,6 +8558,28 @@
 		)
 		(uuid "f7006f9f-1c9d-4e83-9037-2fb0c53bd194")
 	)
+	(global_label "VCC3v3"
+		(shape input)
+		(at 74.93 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04158927-af95-430c-bcd3-ef1d5cde270d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.9304 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC3v3a"
 		(shape input)
 		(at 111.76 26.67 180)
@@ -8800,28 +8822,6 @@
 			)
 		)
 	)
-	(global_label "VCC_3v3"
-		(shape input)
-		(at 163.83 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "308ec3dd-80c3-4e3a-845e-d84b0e20c132")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.798 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS-ESP32"
 		(shape input)
 		(at 17.78 133.35 90)
@@ -8954,6 +8954,28 @@
 			)
 		)
 	)
+	(global_label "VCC3v3"
+		(shape input)
+		(at 99.06 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48a72299-31f2-4fb4-b234-06a32f71c539")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.0596 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBAT"
 		(shape input)
 		(at 46.99 182.88 270)
@@ -8967,6 +8989,28 @@
 		(uuid "4a5c5b67-6ed3-4138-ab7b-9e36977979ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.99 190.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC3v3"
+		(shape input)
+		(at 99.06 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ce9d8cb-6587-48a1-889d-0c8e3e328ead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.0596 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9346,28 +9390,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC_3v3"
-		(shape input)
-		(at 74.93 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e10ac99-a587-4f8f-953f-f702b5f7437e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.898 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9944,28 +9966,6 @@
 			)
 		)
 	)
-	(global_label "VCC_3v3"
-		(shape input)
-		(at 99.06 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be9ed999-3edd-44be-aa78-22f4825104b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.092 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI-SD"
 		(shape input)
 		(at 129.54 82.55 180)
@@ -10292,6 +10292,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC3v3"
+		(shape input)
+		(at 163.83 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8ca8e42-58b0-4366-bb3a-fc7f5f7a0d17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8304 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10644,28 +10666,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC_3v3"
-		(shape input)
-		(at 99.06 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa82ee01-0426-483c-8169-129a83b20359")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.092 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14576,7 +14576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 137.16 26.67 0)
 			(effects
 				(font
@@ -15205,7 +15205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 124.46 71.12 0)
 			(effects
 				(font
